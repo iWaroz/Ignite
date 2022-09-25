@@ -18,7 +18,8 @@ class Client(discord.Client):
     # Run by developer to prepare the bot from the <bot> folder
     def init(self, folder, token):
         self.token = token
-        self.inter = interactions.Client(token=self.token)
+        self.inter = interactions.Client(token=token)
+        self.inter.start()
         ignite.client.initializer.init_folder(self, folder)
 
     # RUn by developer to start the bot along with the interactions engine
