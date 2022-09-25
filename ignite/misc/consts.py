@@ -1,0 +1,2 @@
+# Reference for ignite/client/initializer/event_loader.py and ignite/client/__init__.py getattr validation
+overridable_events = ["on_message", "on_ready", "on_error", "on_typing", "on_message_delete", "on_bulk_message_delete", "on_message_edit", "on_raw_message_edit", "on_reaction_add", "on_raw_reaction_add", "on_reaction_remove", "on_raw_reaction_remove", "on_reaction_clear", "on_raw_reaction_clear", "on_interaction"]
