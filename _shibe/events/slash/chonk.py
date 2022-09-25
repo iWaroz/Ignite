@@ -70,4 +70,3 @@ class forceverify (ig.SlashCommand):
 
     async def callback(ctx, account, username):
         await ctx.reply("Done! (not)")
-
